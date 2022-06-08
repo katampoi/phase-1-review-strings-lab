@@ -5,7 +5,9 @@ const welcomeMessage = "Welcome to Flatbook, " + currentUser  +'!';
 
 const excitedWelcomeMessage = 'WELCOME TO FLATBOOK, ' + 'GRACE HOPPER' + '!';
 
-const shortGreeting = 'Welcome,   ${Grace}!' ;
+// const shortGreeting = 'Welcome,   ${Grace}!' ;
+
+const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
 
 
 
